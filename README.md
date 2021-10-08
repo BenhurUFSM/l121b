@@ -88,33 +88,14 @@ Não deixem dúvidas acumularem. Quanto mais cedo conseguirmos nos comunicar par
  [19]  19jan   exemplo comentado de registros (struct)
  [20]  21jan   alocação dinâmica de memória
 
-[1]: aula1.html
-[2]: aula2.html
-[3]: aula3.html
-[4]: aula4.html
-[5]: aula5.html
-[6]: aula6.html
-[7]: aula7.html
-[8]: aula8.html
-[9]: aula9.html
-[10]: aula10.html
-[11]: aula11.html
-[12]: aula12.html
-[13]: aula13.html
-[15]: aula15.html
-[16]: aula16.html
-[17]: aula17.html
-[18]: aula18.html
-[19]: aula19.html
-[20]: aula20.html
 
 -->
 
 ## Exercícios, trabalhos e provas
 
-|     N |    prazo | assunto
-| ----: | -------: | :-----------
-|    e1 | 14out14h30 | envio de email de confirmação, acesso ao discord
+|    id |      prazo | assunto
+| ----: | ---------: | :-----------
+|    E1 | 14out14h30 | envio de email de confirmação, acesso ao discord
 
 <!--
 |    e2 | 27mai14h30 | ver aula 3
