@@ -1,10 +1,9 @@
 # l121b - Laboratório de Programação I
-turmas SI1 e CC1, segundo semestre 2021\
 ELC1065 DLSC/CT/UFSM\
-professor: Benhur Stein 
-([benhur+l121b@inf.ufsm.br](mailto:benhur%2bl121b@inf.ufsm.br))\
+turmas SI1 e CC1, segundo semestre 2021\
+professor: Benhur Stein ([benhur+l121b@inf.ufsm.br](mailto:benhur%2bl121b@inf.ufsm.br))\
 monitor: ainda nao tem [a.n.tem@inf.ufsm.br]\
-terças e quintas, 14h30
+terças e quintas, 14h30, no servidor discord da disciplina
 
 
 ## Desenvolvimento da disciplina
@@ -37,7 +36,8 @@ O distanciamento físico entre todos da turma torna o desenvolvimento da discipl
 Todos vamos precisar nos empenhar mais que em um semestre normal.
 Eu espero conseguir ajudar o máximo o maior número de vocês.
 Eu só consigo identificar os problemas através do que usarmos como canais de comunicação.
-Não deixem dúvidas acumularem. Quanto mais cedo conseguirmos nos comunicar para apontar problemas, expor sugestões, melhores vão ser nossas chances de sucesso.
+Não deixem dúvidas acumularem.
+Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugestões etc, melhores serão nossas chances de sucesso.
 
 ##  Aulas 
 
