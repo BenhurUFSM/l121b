@@ -96,7 +96,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    id |      prazo | assunto
 | ----: | ---------: | :-----------
 |    E1 | 14out14h30 | envio de email de confirmação, acesso ao discord
-|    E2 | 18out      | ver aula 1
+|    E2 | 18out      | ver aula 1 (é 18out enquanto não for 19out)
 
 <!--
 |    e2 | 27mai14h30 | ver aula 3
