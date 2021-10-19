@@ -44,6 +44,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    N |   data | assunto
 | ---: | :----: | :--------
 |    1 |  14out | [introdução](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/01.md)
+|    2 |  19out | [meu primeiro programa C](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/02.md)
 
 <!--
 |    2 |  20mai | [primeiro programa C](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/02.p1.c.md)
