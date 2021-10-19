@@ -44,7 +44,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    N |   data | assunto
 | ---: | :----: | :--------
 |    1 |  14out | [introdução](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/01.md)
-|    2 |  19out | [meu primeiro programa C](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/02.md)
+|    2 |  19out | [primeiro programa C](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/02.md)
 
 <!--
 |    2 |  20mai | [primeiro programa C](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/02.p1.c.md)
@@ -97,7 +97,8 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    id |      prazo | assunto
 | ----: | ---------: | :-----------
 |    E1 | 14out14h30 | envio de email de confirmação, acesso ao discord
-|    E2 | 18out      | ver aula 1 (só deixa de ser 18out quando for 19out)
+|    E2 | 18out      | ver aula 1
+|    E3 | 25out      | espere aula 3
 
 <!--
 |    e2 | 27mai14h30 | ver aula 3
