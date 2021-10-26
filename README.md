@@ -98,7 +98,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 | ----: | ---------: | :-----------
 |    E1 | 14out14h30 | envio de email de confirmação, acesso ao discord
 |    E2 | 18out      | ver aula 1
-|    E3 | 25out      | espere aula 3
+|    E3 | 25out      | ver aula 3
 
 <!--
 |    e2 | 27mai14h30 | ver aula 3
