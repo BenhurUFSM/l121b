@@ -47,6 +47,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    2 |  19out | [primeiro programa C](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/02.md)
 |    3 |  21out | [números binários, tipos de dados básicos em C, variáveis, scanf](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/03.md)
 |    4 |  26out | [funções](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/04.md)
+|    5 |  28out | [conversão de tipos](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/05.md)
 <!--
 |    2 |  20mai | [primeiro programa C](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/02.p1.c.md)
 |    3 |  25mai | [variáveis, entrada de dados](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/03.md)
