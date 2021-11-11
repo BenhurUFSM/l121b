@@ -18,7 +18,7 @@
 //
 //    inss = ...   // calcula a contribuicao do inss
 //    base = bruto - inss;
-//    irff = ...   // calcula o irrf a partir da base
+//    irrf = ...   // calcula o irrf a partir da base
 //
 //    return irrf; // retorna o valor pedido
 // }
