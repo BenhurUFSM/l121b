@@ -51,6 +51,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    6 |   4nov | [comando de seleção `if`; operadores de comparação](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/06.md)
 |    7 |   9nov | [tipo *bool*; operadores lógicos](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/07.md)
 |    8 |  11nov | [repetição, comando *for*](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/08.md)
+|    9 |  16nov | [repetição, comandos *while* e *do..while*](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/09.md)
 <!--
 |    2 |  20mai | [primeiro programa C](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/02.p1.c.md)
 |    3 |  25mai | [variáveis, entrada de dados](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/03.md)
