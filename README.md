@@ -52,6 +52,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    7 |   9nov | [tipo *bool*; operadores lógicos](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/07.md)
 |    8 |  11nov | [repetição, comando *for*](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/08.md)
 |    9 |  16nov | [repetição, comandos *while* e *do..while*](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/09.md)
+|   10 |  18nov | [exercícios, t1](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/10.md)
 <!--
 |    2 |  20mai | [primeiro programa C](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/02.p1.c.md)
 |    3 |  25mai | [variáveis, entrada de dados](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/03.md)
@@ -107,6 +108,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    E3 | 25out      | ver aula 3
 |    E4 | 9nov       | ver aula 6 ([exemplo de implementação](https://github.com/BenhurUFSM/l121b/blob/main/Complementos/e4.c))
 |    E5 | 16nov14h   | ver aula 8
+|    T1 | 23nov14h   | ver aula 10
 
 <!--
 |    e2 | 27mai14h30 | ver aula 3
