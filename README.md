@@ -2,7 +2,7 @@
 ELC1065 DLSC/CT/UFSM\
 turmas SI1 e CC1, segundo semestre 2021\
 professor: Benhur Stein ([benhur+l121b@inf.ufsm.br](mailto:benhur%2bl121b@inf.ufsm.br))\
-monitor: ainda nao tem [a.n.tem@inf.ufsm.br]\
+monitor: Artur Zeferino Marques [azmarques@inf.ufsm.br]\
 terças e quintas, 14h30, no servidor discord da disciplina
 
 
