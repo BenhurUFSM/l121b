@@ -114,6 +114,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    E4 | 9nov       | ver aula 6 ([exemplo de implementação](https://github.com/BenhurUFSM/l121b/blob/main/Complementos/e4.c))
 |    E5 | 16nov14h   | ver aula 8
 |    T1 | 23nov14h   | ver aula 10 (com exemplo de implementação)
+|    T2 | ?          | ver aula 15
 
 <!--
 |    e2 | 27mai14h30 | ver aula 3
