@@ -60,7 +60,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |   15 |   7dez | [matrizes, strings](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/15.md)
 |   16 |   9dez | [arquivos](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/16.md)
 |   17 |  14dez | exercícios
-|   18 |  16dez |
+|   18 |  16dez | [referências, ponteiros](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/18.md)
 |      |        |
 |   19 |  11jan |
 <!--
