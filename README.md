@@ -120,6 +120,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |    E5 | 16nov14h   | ver aula 8
 |    T1 | 23nov14h   | ver aula 10 (com exemplo de implementação)
 |    T2 | 16dez      | ver aula 15
+|    T3 | ASD        | [labirinto](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/t3.md)
 
 <!--
 |    e2 | 27mai14h30 | ver aula 3
