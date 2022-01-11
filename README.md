@@ -62,7 +62,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |   17 |  14dez | exercícios
 |   18 |  16dez | [referências, ponteiros](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/18.md)
 |      |        |
-|   19 |  11jan |
+|   19 |  11jan | [registros](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/19.md)
 <!--
 |    2 |  20mai | [primeiro programa C](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/02.p1.c.md)
 |    3 |  25mai | [variáveis, entrada de dados](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/03.md)
