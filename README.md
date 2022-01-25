@@ -66,6 +66,7 @@ Quanto mais cedo conseguirmos nos comunicar para expor problemas, apontar sugest
 |   20 |  13jan | registros, cont.
 |   21 |  18jan | exercícios
 |   22 |  20jan | exercícios
+|   23 |  25jan | [alocação dinâmica de memória](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/23.md)
 <!--
 |    2 |  20mai | [primeiro programa C](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/02.p1.c.md)
 |    3 |  25mai | [variáveis, entrada de dados](https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/03.md)
