@@ -5,6 +5,8 @@ professor: Benhur Stein ([benhur+l121b@inf.ufsm.br](mailto:benhur%2bl121b@inf.uf
 monitor: Artur Zeferino Marques [azmarques@inf.ufsm.br]\
 terças e quintas, 14h30, no servidor discord da disciplina
 
+## Se você está em exame, veja no final desta página
+
 
 ## Desenvolvimento da disciplina
 
@@ -158,3 +160,13 @@ O PET oferece tópicos de apoio a disciplinas iniciais.
 ## Avaliações etc
 
 Veja a [planilha](https://docs.google.com/spreadsheets/d/1-SgO56hzFQxO4gkc4D3xHmZL5XLBkYXJpWwtPgEOTOg/edit?usp=sharing).
+
+## Exame
+
+Quem não obteve média 7 na disciplina pode realizar exame, para tentar recuperar a nota.
+A média final de quem não obteve média 7 é calculada como a média entre a média obtida antes do exame e a nota do exame (que é 0 se o aluno não fizer o exame).
+Se a média final for pelo menos 5, o aluno é considerado aprovado.
+
+O exame será o desenvolvimento de um programa para jogar o **wordle**, que **deve** ser desenvolvido de acordo com a [descrição](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/tex.md).
+A entrega é como o T4, com apresentação com data a combinar depois da entrega.
+Em princípio, a entrega deve ser feita em fevereiro.
