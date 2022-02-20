@@ -25,8 +25,11 @@ Iremos usar um conjunto de palavras que peguei [aqui](https://github.com/Alfredo
 Separei as palavras de 5 letras e tratei os acentos.
 O resultado está no arquivo `palavras`, no formato descrito mais adiante.
 
+Para cada palavra, teremos duas versões, uma sem acentos e toda em minúsculas, para facilitar a identificação.
+O usuário irá digitar somente letras sem acento, e a palavra digitada será comparada com essa versão.
+A segunda versão é uma versão de apresentação, podendo conter letras maiúsculas e letras acentuadas.
 
-O arquivo `palavras` contém as palavras conhecidas pelo jogo. Nesse arquivo, cada palavra está em uma linha, e o arquivo tem uma quantidade desconhecida de linhas.
+O arquivo `palavras` contém as palavras conhecidas pelo jogo. Ao todo, 16734 palavras. Cada palavra está em uma linha do arquivo.
 
 Cada linha do arquivo contém duas grafias para a palavra e opcionalmente informação sobre se essa palavra já foi usada ou não. A primeira grafia contém exatamente 5 caracteres, todos eles letras minúsculas sem acento. A segunda grafia contém a mesma palavra, mas pode conter letras maiúsculas e pode ter acentos. A terceira informação é opcional, se houver é uma letra 'S', que diz que a palavra já foi usada e não deve ser sorteada. Entre as duas grafias, tem um espaço. Se houver a terceira informação, tem também um espaço antes do 'S'. No final de uma palavra tem um caractere de fim de linha `'\n'`.
 
@@ -43,19 +46,29 @@ A segunda grafia ocupa portanto entre 5 e 10 bytes no arquivo.
 
 O byte seguinte pode ser um espaço ou um fim de linha. Se for espaço, obrigatoriamente é seguido por 'S' e por fim de linha. O caractere de fim de linha representa o final da informação sobre uma palavra, e é seguido pela próxima palavra ou pelo final do arquivo.
 
+Em memória, uma palavra será armazenada na estrutura abaixo:
+```c
+   typedef struct {
+     char sem_acento[5];
+     char com_acento[10];
+     bool usada;
+   } palavra_t;
+
 Você deve implementar a função abaixo, para ler uma palavra do arquivo:
 ```c
-   bool le_palavra(FILE *arquivo, char sem_acento[5], char com_acento[10], char *usada)
+   bool le_palavra(FILE *arquivo, palavra_t *p)
 ```
-Essa função recebe em `arquivo` um arquivo já aberto para leitura, um vetor onde colocar a primeira grafia da palavra, um vetor onde colocar a segunda grafia da palavra (mais caracteres de código 0 se a palavra tiver menos de 5 letras acentuadas) e um ponteiro onde deve colocar `'S'` se tiver essa informação no arquivo ou `'N'` caso não tenha.
+Essa função recebe em `arquivo` um descritor de arquivo já aberto para leitura, e em `p` um ponteiro para uma estrutura como descrito acima.
+A função deve ler a próxima palavra do arquivo e preencher a estrutura. O campo `com_acento` deve ser completado com caracteres de código 0 caso a palavra tenha menos de 5 letras acentuadas.
+O campo `usada` será preenchido com `true` se houver o `S` no final da linha e com `false` caso contrário.
 A função deve retornar `true` se a linha foi corretamente lida ou `false` caso contrário (se chegar no final do arquivo ou se a linha não estiver de acordo com o descrito acima).
 
-Você deve também implementar a função `grava_palavra`, que recebe os mesmos argumentos, mas grava a palavra recebida no arquivo, usando o mesmo formato.
+Você deve também implementar a função `grava_palavra`, que recebe uma estrutura preenchida e grava uma linha no arquivo, no mesmo formato:
 ```c
-   bool le_palavra(FILE *arquivo, char sem_acento[5], char com_acento[10], char usada)
+   bool grava_palavra(FILE *arquivo, palavra_t palavra)
 ```
 
-Use essas duas funções para copiar o arquivo:
+Teste essas duas funções fazendo um programa para copiar o arquivo:
 ```c
    int main()
    {
@@ -67,11 +80,9 @@ Use essas duas funções para copiar o arquivo:
        printf("Erro no acesso aos arquivos\n");
        exit(1);
      }
-     char sa[5];
-     char ca[10];
-     char usada;
-     while (le_palavra(entrada, sa, ca, &usada)) {
-       if (!grava_palavra(saida, sa, ca, usada)) {
+     palavra_t palavra;
+     while (le_palavra(entrada, &palavra)) {
+       if (!grava_palavra(saida, palavra)) {
          printf("problema na gravação\n");
          break;
        }
