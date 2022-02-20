@@ -53,6 +53,7 @@ Em memória, uma palavra será armazenada na estrutura abaixo:
      char com_acento[10];
      bool usada;
    } palavra_t;
+```
 
 Você deve implementar a função abaixo, para ler uma palavra do arquivo:
 ```c
