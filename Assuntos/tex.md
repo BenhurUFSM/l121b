@@ -128,7 +128,7 @@ Um chute é uma palavra que o usuário digita, para tentar a palavra sorteada.
 Um chute deve ser submetido a duas análises: uma para saber se é um chute válido e outra para produzir as dicas sobre esse chute para o usuário.
 Vamos usar uma estrutura para armazenar um chute:
 ```c
-   typedev struct {
+   typedef struct {
      char letras[5];    // as letras que o jogador chutou
      palavra_t palavra; // a palavra correspondente ao chute
      char dicas[5];     // a classificação de cada letra do chute
