@@ -20,6 +20,12 @@ Basicamente, a dinâmica do jogo é:
 
 ### As palavras
 
+O programa deve conhecer um certo número de palavras para funcionar.
+Iremos usar um conjunto de palavras que peguei [aqui](https://github.com/AlfredoFilho/Palavras_PT-BR).
+Separei as palavras de 5 letras e tratei os acentos.
+O resultado está no arquivo `palavras`, no formato descrito mais adiante.
+
+
 O arquivo `palavras` contém as palavras conhecidas pelo jogo. Nesse arquivo, cada palavra está em uma linha, e o arquivo tem uma quantidade desconhecida de linhas.
 
 Cada linha do arquivo contém duas grafias para a palavra e opcionalmente informação sobre se essa palavra já foi usada ou não. A primeira grafia contém exatamente 5 caracteres, todos eles letras minúsculas sem acento. A segunda grafia contém a mesma palavra, mas pode conter letras maiúsculas e pode ter acentos. A terceira informação é opcional, se houver é uma letra 'S', que diz que a palavra já foi usada e não deve ser sorteada. Entre as duas grafias, tem um espaço. Se houver a terceira informação, tem também um espaço antes do 'S'. No final de uma palavra tem um caractere de fim de linha `'\n'`.
