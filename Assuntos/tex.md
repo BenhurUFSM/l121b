@@ -4,6 +4,7 @@
    ***Alterações deste texto***
    - 19fev - primeira versão, incompleta
    - 20fev, 12h30 - primeira versão completa
+   - 21fev, 0h25 - clarificação sobre o link com as palavras
 
 * * *
 
