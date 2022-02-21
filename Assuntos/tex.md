@@ -5,6 +5,7 @@
    - 19fev - primeira versão, incompleta
    - 20fev, 12h30 - primeira versão completa
    - 21fev, 0h25 - clarificação sobre o link com as palavras
+   - 21fev, 0h33 - clarificação sobre o desenho dos chutes que têm letras acentuadas
 
 * * *
 
@@ -203,6 +204,8 @@ O desenho de cada chute ocupará 4 linhas na tela:
 - a segunda contém, para cada um dos 5 caracteres do chute, 1 espaços com a cor de fundo correspondente ao caracter, seguido pelo caractere, seguido por outro espaço ainda com a mesma cor de fundo, seguido por um espaço na cor de fundo normal;
 - a terceira é igual à primeira;
 - a quarta é em branco.
+
+Para escrever o chute, deve-se usar os caracteres da segunda versão da palavra do chute (que pode conter acentos). Quando o caractere for uma letra minúscula ou maiúscula, ele é impresso com um só byte, se não for nem minúscula nem maiúscula, é um caracter acentuado, que é impresso escrevendo-se dois bytes seguidos.
 
 O desenho dos chutes ainda não realizados será feito da mesma forma, só que tem espaço no lugar do caracter e o fundo é cinza escuro para todos eles.
 
