@@ -6,6 +6,7 @@
    - 20fev, 12h30 - primeira versão completa
    - 21fev, 0h25 - clarificação sobre o link com as palavras
    - 21fev, 0h33 - clarificação sobre o desenho dos chutes que têm letras acentuadas
+   - 21fev, 1825 - inclusão de arquivo com menos palavras
 
 * * *
 
@@ -32,6 +33,7 @@ O programa deve conhecer um certo número de palavras para funcionar.
 Iremos usar um conjunto de palavras que adaptei da lista disponível em `https://github.com/AlfredoFilho/Palavras_PT-BR`.
 Separei as palavras de 5 letras e tratei os acentos.
 O resultado está no arquivo [palavras](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/palavras), no formato descrito mais adiante.
+Tem uma [versão menor do arquivo](https://github.com/BenhurUFSM/l121b/blob/main/Assuntos/palavras-cortadas), só com as palavras que começam com 'a' até 'd', 5060 palavras, caso tenha problema com o tamanho do arquivo.
 
 Para cada palavra, teremos duas versões, uma sem acentos e toda em minúsculas, para facilitar a identificação.
 O usuário irá digitar somente letras sem acento, e a palavra digitada será comparada com essa versão.
